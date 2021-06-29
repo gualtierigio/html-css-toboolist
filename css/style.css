@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header hr{
+    margin-top: 50px;
+}
+
+header div{
+    padding: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+main{
+    background-color: rgb(207, 231, 243);
+    padding: 60px 300px 20px 300px;
+}
+
+button{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 4px;
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+#title{
+    display: inline-block;
+    font-size: 40px;
+}
+
+#container{
+    height: 600px;
+    width: 800px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.add{
+    border: 1px solid red;
+}
+
+#task{
+    background-color: rgb(76, 186, 236);
+    color: white;
+    margin-left: 30px;
+}
+
+#section{
+    background-color: white;
+    color: rgba(0, 0, 0, 0.3);
+}
