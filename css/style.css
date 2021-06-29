@@ -35,6 +35,10 @@ ul {
     list-style-type: none;
     }
 
+    li{
+        margin-bottom: 20px;
+    }
+
 #title{
     display: inline-block;
     font-size: 40px;
@@ -73,14 +77,24 @@ ul {
 }
 
 .thick{
-    color: skyblue;
-    border: 1px solid skyblue;
     border-radius: 50%;
     font-size: 15px;
+    display: inline-block;
+    width: 20px;
+    text-align: center;
 }
 
-.editorial{
-    background-color: rgb(25, 152, 184);
+.yes{
+    color: skyblue;
+    border: 1px solid skyblue;
+}
+
+.nope{
+    color: red;
+    border: 1px solid red;
+}
+
+.evidenziato{
     color: white;
     padding: 5px 15px 5px 15px;
     border-radius: 10px;
@@ -90,4 +104,28 @@ ul {
 .freccetta{
     font-size: 40px;
     vertical-align: top;
+}
+
+.editorial{
+    background-color: turquoise;
+}
+
+.goals{
+    background-color: violet;
+}
+
+.recruiting{
+    background-color: rgb(38, 85, 155);
+}
+
+.mobile{
+    background-color: orange;
+}
+
+.website{
+    background-color: pink;
+}
+
+.sales{
+    background-color: lime;
 }
