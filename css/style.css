@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
 header hr{
     margin-top: 50px;
 }
@@ -33,23 +37,54 @@ button{
 }
 
 #container{
-    height: 600px;
+    height: 800px;
     width: 800px;
     background-color: white;
     border-radius: 4px;
 }
 
-.add{
+#container__content{
+    margin-left: 70px;
     border: 1px solid red;
+    height: 100%;
+}
+
+.add{
+    border-bottom: 2px solid rgb(207, 231, 243);
 }
 
 #task{
     background-color: rgb(76, 186, 236);
     color: white;
-    margin-left: 30px;
+    margin-left: 70px;
 }
 
 #section{
     background-color: white;
     color: rgba(0, 0, 0, 0.3);
+}
+
+.new-task{
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+.thick{
+    color: skyblue;
+    border: 1px solid skyblue;
+    border-radius: 50%;
+    font-size: 15px;
+}
+
+.editorial{
+    background-color: rgb(25, 152, 184);
+    color: white;
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.freccetta{
+    font-size: 40px;
+    vertical-align: top;
 }
