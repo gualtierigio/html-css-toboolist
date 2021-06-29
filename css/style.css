@@ -31,6 +31,10 @@ button{
     border-color: rgba(0, 0, 0, 0.2);
 }
 
+ul {
+    list-style-type: none;
+    }
+
 #title{
     display: inline-block;
     font-size: 40px;
@@ -45,7 +49,6 @@ button{
 
 #container__content{
     margin-left: 70px;
-    border: 1px solid red;
     height: 100%;
 }
 
