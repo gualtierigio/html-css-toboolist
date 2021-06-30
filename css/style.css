@@ -9,13 +9,12 @@ body{
 }
 
 header hr{
-    margin-top: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
-header div{
-    padding: 20px;
-    display: inline-block;
-    vertical-align: middle;
+header{
+    margin: 10px;
 }
 
 main{
@@ -31,17 +30,28 @@ button{
     border-color: rgba(0, 0, 0, 0.2);
 }
 
+section h2{
+    margin-bottom: 15px                            ;
+}
+
 ul {
     list-style-type: none;
     }
 
-    li{
-        margin-bottom: 20px;
-    }
+li{
+     margin-bottom: 20px;
+}
+
+#main-logo{
+    height: 100%;
+    vertical-align: middle;
+}
 
 #title{
-    display: inline-block;
     font-size: 40px;
+    font-weight: 800;
+    height: 100%;
+    vertical-align: middle;
 }
 
 #container{
@@ -102,8 +112,8 @@ ul {
 }
 
 .freccetta{
-    font-size: 40px;
-    vertical-align: top;
+    font-size: 20px;
+    vertical-align: middle;
 }
 
 .editorial{
